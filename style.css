@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
+    min-width: none;
     margin-right: 0px;
 }
 
@@ -47,7 +48,8 @@ a:hover {
     padding-top: 100px;
     padding-bottom: 100px;
     align-items: center;
-    flex:1 1 auto
+    flex:1 1 auto;
+    padding-left: 50px;
 }
 
 .hero-main {
@@ -130,7 +132,7 @@ button {
      justify-content: center;
      align-items: center;
      background-color: #E5E7EB;
-     font-size: 36px;
+     font-size: 24px;
      font-family: italic;
      color: #1F2937;
      padding-top: 50px;
@@ -142,6 +144,47 @@ button {
      justify-content: flex-end;
      font-weight: bolder;
  }
+
+ .signup-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+ }
+
+ .signup-box .box {
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 800px;
+     background-color: #3882f6;
+     border-radius: 10px;
+     padding: 20px;
+ }
+
+ .call-to-a {
+     font-weight: bolder;
+ }
+
+ .box button {
+     border: solid 2px #E5E7EB;
+     color: #E5E7EB;
+     font-weight: bold;
+ }
+
+ .footer-end {
+     background-color: #1F2937;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #E5E7EB;
+     font-size: 18px;
+     min-height: 80px;
+
+
+ }
+
 
 
 
