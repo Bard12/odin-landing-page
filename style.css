@@ -18,18 +18,55 @@ body {
     color: #F9FAF8;
 }
 
+
 .header-link  {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 24px;
+    font-size: 18px;
     column-gap: 16px;
     list-style: none;
 }
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
-
+    color: #E5E7EB;
 }
 
+a:hover {
+    font-size: 32px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#1F2937 ;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    font-size: 16px;
+    background-color: #3882f6;
+    width: 100px;
+}
+
+.hero-img img {
+    display: block;
+    height: 250px;
+    width: 400px;
+    border-width: thick;
+    background-color: grey;
+}
