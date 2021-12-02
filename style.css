@@ -36,7 +36,8 @@ a {
 }
 
 a:hover {
-    font-size: 32px;
+    font-size: 24px;
+    color: grey;
 }
 
 .hero {
@@ -78,6 +79,11 @@ button {
     border-radius: 5px;
     color:#E5E7EB ;
     padding: 5px
+}
+
+button:hover {
+    background-color: #E5E7EB;
+    color:#3882f6 ;
 }
 
 .hero-img img {
@@ -173,6 +179,12 @@ button {
      font-weight: bold;
  }
 
+ .box button:hover {
+     background-color: #E5E7EB;
+     color: #3882f6;
+
+ }
+
  .footer-end {
      background-color: #1F2937;
      display: flex;
@@ -181,8 +193,6 @@ button {
      color: #E5E7EB;
      font-size: 18px;
      min-height: 80px;
-
-
  }
 
 
